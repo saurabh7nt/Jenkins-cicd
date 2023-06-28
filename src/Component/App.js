@@ -8,7 +8,7 @@ export default function App() {
                 <div className="card-body">
                     <h5 className="card-title">The Hilarious Hound!</h5>
                     <p className="card-text"> Ladies and gentlemen, meet the dog that's here to brighten your world and leave you in stitches ;)"</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    <a href="#" className="btn btn-primary">Go anywhere</a>
                 </div>
             </div>
         </div>
