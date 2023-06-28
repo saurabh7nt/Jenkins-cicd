@@ -22,5 +22,8 @@ ENV PORT=3000
 # Expose the specified port
 EXPOSE $PORT
 
+# Adjust permissions on the node_modules directory
+RUN sudo chmod -R 777 node_modules/
+
 # Run the React app using the production build
 CMD ["npm", "start"]
